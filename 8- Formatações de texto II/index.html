@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte</h2>
+    <h3>Tag code</h3>
+    <p>A tag code é responsável por tornar a fonte do texto monoespaçada, além de indicar que
+       aquele trecho se trata de um código fonte.
+    </p>
+    <p>&rarr;Exemplo de um código na linguagem C sem a tag code (declaração e inicialização de vetor):
+       int vetor[3] = {0, 1, 2}
+    </p>
+    <p>&rarr;Exemplo de um código na linguagem C com a tag code (declaração e inicialização de vetor):          <!--TAG CODE-->
+       <code>int vetor[3] = {0, 1, 2}</code>
+    </p>
+    <h3>Tag pre</h3>
+    <p>A tag pre basicamente mostra o texto do mesmo modo que ele foi digitado no seu editor de código.</p>
+    <p>&rarr;Exemplo de um código da linguagem C sem a tag pre (função principal da linguagem): <br> <br>
+       <code>
+           int main ()
+           {
+                printf ("Função principal da linguagem C!");
+           
+                return 0;
+           }
+       </code>
+    </p>
+    <p>&rarr;Exemplo de um código da linguagem C com a tag pre (função principal da linguagem): 
+        <pre>                                                                                                   <!--TAG PRE-->
+            <code>
+    int main ()
+    {
+            printf ("Função principal da linguagem C!");
+
+            return 0;
+    }
+            </code>
+        </pre>
+    </p>
+    <hr>
+    <h2>Citações</h2>
+    <h3>Tag q</h3>
+    <p>A tag q é usada para citações simples que aparecem no meio de parágragos, seu resultado visual é 
+       basicamente as aspas. <br>Exemplo: Como diria o tio ben: <q>com grandes poderes vem grandes              <!--TAG Q-->
+       responsabilidades.</q>
+    </p>
+    <h3>Tag blockquote</h3>
+    <p>A tag blockquote é usada para citações mais completas, seu resultado visual é um espaçamento da 
+       citação a direita em relação a margem do site. Veja: <br>Segundo o autor X, no livro Y:
+    </p>
+    <blockquote cite="URL">                                                                                     <!--TAG Q-->
+        Existem tags em HTML que são semânticas e não semânticos, ou seja, possuem e não possuem 
+        significado respectivamente.
+    </blockquote>
+    <hr>
+    <h2>Abrevições</h2>
+    <h3>Tag abbr</h3>
+    <p>A tag abbr é responsável por indicar através do parâmetro title o que significa determinada sigla,
+       o resultado visual aparece ao correr o cursor sobre a sigla.
+    </p>
+    <p>Estou estudando <abbr title="Hypertext Markup Language ">HTML</abbr> e                                   <!--TAG ABBR-->
+       <abbr title="Cascading Style Sheets ">CSS</abbr>
+    </p>
+</body>
+</html>
+
+
+
+
+
