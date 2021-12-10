@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações de texto</title>
+    <style>                                                                   /*mudança do background (cor) das tags mark*/     
+        mark {
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Algumas formatações de texto</h1>
+    <h2>Negrito (tags b e strong)</h2>                                                              <!--tags negrito-->
+    <p>Termo em <b>negrito</b> usando a tag b (tag não semântica, ou seja, sem significado).</p>
+    <p>Termo em <strong>destaque</strong> usando a tag strong (tag semântica, ou seja, possui o 
+       significado de destaque em relação ao restante do texto, mas com o mesmo resultado 
+       visual da tag b).
+    </p>
+    <hr>
+    <h2>Itálico (tags i e em)</h2>                                                                  <!--tags itálico-->
+    <p>Termo em <i>itálico</i> usando a tag i (tag não semântica, ou seja, sem significado).</p>
+    <p>Termo em <em>ênfase</em> usando a tag em (tag semântica, ou seja, possui o significado de 
+       que a parte em itálico é mais especial do que as outras partes do texto, mas com o mesmo 
+       resultado visual da tag i).
+    </p>
+    <hr>
+    <h2>Marcador (tag mark)</h2>                                                                    <!--tag marca texto-->
+    <p>Texto 1 <mark>marcado</mark> pela tag mark e com a cor selecionada pelo CSS através da 
+       tag style declarada na área head do documento HTML (tag semântica, indica que o texto
+       marcado possui um destaque maior em relação aos demais).
+    </p>
+    <p>Texto 2 <mark>marcado</mark> pela tag mark e com a cor selecionada pelo CSS através da 
+        tag style declarada na área head do documento HTML (tag semântica, indica que o texto
+        marcado possui um destaque maior em relação aos demais).
+    </p>
+    <hr>                                                                                            <!--tags sublinhado-->
+    <h2>Sublinhado ou texto inserido (tags u e ins)</h2>
+    <p>Texto <u>sublinhado</u> usandoa a tag u (tag não semântica, ou seja, sem significado).</p>
+    <p>Texto <ins>inserido</ins>(sublinhado) usando a tag ins (tag semântica, ou seja, possui o 
+       significado de que essa parte texto tem um maior destaque em relação as outras, mas com o 
+       mesmo resultado visual da tag u).
+    </p>
+    <hr>    
+    <h2>Texto excluído (tag del)</h2>                                                               <!--tag texto excluído-->
+    <p>Texto <del>excluído</del> usando a tag del (tag semântica, ou seja, possui o significado 
+       de que esse texto deve ser lido, mas não deve ser considerado).
+    </p>
+    <hr>
+    <h2>Texto sobrescrito e subescrito (tags sup e sub )</h2>                                       <!--tags texto sobrescrito e subescrito-->
+    <p>Texto sobrescrito &rarr; x<sup>20</sup>-3 (tag semântica).</p>
+    <p>Texto subescrito &rarr; H<sub>2</sub>O (tag semântica).</p>
+</body>
+</html>
+
+
