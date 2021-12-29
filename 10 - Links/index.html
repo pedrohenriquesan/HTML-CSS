@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links - primeira página</title>
+</head>
+<body>
+    <h1>Links - primeira página</h1>
+    <h2>Links externos</h2>
+    <p>Links externos são aqueles que direcionam a navegação para páginas externas ao próprio site, 
+       ou seja, outros sites. <br> Exemplos:
+    </p>
+    <p>Acesse meu perfil no github clicando 
+       <a href="https://github.com/pedrohenriquesan" target="_blank" rel="external">aqui</a>.            <!--criação de link externo-->
+    </p>
+    <p>Acesse o site de referência da linguagem HTML clicando 
+       <a href="https://www.w3schools.com/html/" hreflang="en" target="_blank" rel="external">aqui</a>.  <!--criação de link externo-->
+    </p>
+    <hr>
+    <h2>Links internos</h2>
+    <p>Links internos são aqueles que direcionam a navegação e interação dentro do próprio site, 
+       ou seja, eles são responsáveis pelas transições de telas(páginas) de um mesmo site. Exemplo:
+    </p>
+    <p>Clique <a href="páginaDois.html" rel="next">aqui</a> para ser direcionado para a nossa segunda    <!--criação de link interno-->
+       página!
+    </p>   
+    <hr>
+    <h2>Links internos em subpastas</h2>
+    <p>A única diferença presente aqui é o local do arquivo html, estando em uma subpasta junto ao 
+       index, onde a referência hipertexto é feita do mesmo modo que as imagens, veja:
+    </p>
+    <p>Clique <a href="outrasPáginas/páginaTrês.html" rel="next">aqui</a> para acessar nossa terceira    <!--criação de link interno em subpasta-->
+       página!
+    </p>   
+    <hr>
+    <h2>Links para downloads</h2>
+    <p>Aqui temos o uso de links para disponibilizarmos arquivos para download, vale ressaltar que o material 
+       em PDF pode ocorrer somente a vizualização dependendo do navegador utilizado, veja:
+    </p>
+    <ul>
+        <li><a href="arquivosDownload/Meu material de git e github.pdf" download="Meu material de git e github.pdf" type="application/pdf">Baixar</a> material de git e github em PDF.</li>
+        <!--criação de link para download de arquivo .pdf-->
+        <li><a href="arquivosDownload/Meu material de git e github.zip">Baixar</a> material de git e github compactado.</li>
+        <!--criação de link para download de arquivo .zip-->
+    </ul>
+</body>
+</html>
+
