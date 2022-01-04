@@ -10,5 +10,26 @@
     <h1>Mídias</h1>
     <hr>
     <h2>Vídeos</h2>
+    <p>Os vídeos a seguir estão sendo hospedados localmente!</p>
+    <h3>1° forma</h3>
+    <p>Inserção mais básica sem uso de sources com outros formatos de vídeo.</p>
+    <video src="videos/video1.mp4" width="300" autoplay loop controls poster="imagens/tumbVideo.png"></video>
+    <h3>2° forma</h3>
+    <p>Inserção mais completa com o uso de sources com outros formatos de vídeo, no entanto, é preciso converter 
+       o vídeo mp4 <br> para os outros formatos para poder exibi-los em navegadores que não são compatíveis com mp4.
+    </p>
+    <video width="300" autoplay loop controls poster="imagens/tumbVideo.png">
+        <source src="videos/video1.mp4" type="video/mp4">
+        <!--<source src="videos/video1.m4v" type="video/mp4">       TEM QUE CONVERTER-->
+        <!--<source src="videos/video1.webm" type="video/webm">     TEM QUE CONVERTER-->
+        <!--<source src="videos/video1.ogv" type="video/ogg">       TEM QUE CONVERTER-->
+    </video>
+    <hr>
+    <h2>Vídeos</h2>
+    <p>Os vídeos seguir estão sendo incorporados de outro serviço de hospedagem! <br> Nesse caso, o Youtube.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VpZSoY99mUY" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
+
