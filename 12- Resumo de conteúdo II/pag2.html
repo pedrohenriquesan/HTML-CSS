@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo de conteúdo II</title>
+</head>
+<body>
+    <h1>Resumo de conteúdo II</h1>
+    <h2>Mídias</h2>
+    <h3>Imagens dinâmicas</h3>
+    <p>São chamadas imagens dinâmicas aquelas que só carregam de acordo com o tamanho 
+       disponível na tela do usuário, por isso são disponibilizadas através de sources
+       vários tamanhos ordenados normalmente da menor para a maior, além de uma como
+       padrão (a maior) e, com isso, a medida que a tela é estendida a próxima imagem 
+       subtitui a anterior.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemp.png" type="image/png">   <!--source imagem pequena-->
+        <source media="(max-width: 1050px)" srcset="imagens/imagemm.png" type="image/png">  <!--source imagem média-->
+        <img src="imagens/imagemg.png" alt="imagem">                                        <!--imagem padrão grandes-->
+    </picture>
+    <hr>
+    <h3>Áudios</h3>
+    <p>Os áudios podem ser inseridos de duas maneiras, em ambas recebem 3 parâmetros: 
+       <br>  controls (adiciona o player). <br>  autoplay (inicia logo que o site carrega), 
+       não funciona em todos os navegadores. <br>  loop (inicia novamente quando acaba).
+    </p>
+    <h4>1° primeira</h4>
+    <audio src="audios/happyMistake.mp3" controls autoplay loop></audio>                         <!--uso da tag audio para inserção de áudio-->
+    <h4>2° maneira</h4>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="audios/WebdriverTorso.mp3" type="audio/mpeg">
+        <!--<source src="audios/WebdriverTorso.wav" type="audio/wav">       TEM QUE CONVERTER-->    
+        <!--<source src="audios/WebdriverTorso.ogg" type="audio/ogg">       TEM QUE CONVERTER-->
+    </audio>
+    <hr>
+    <h3>Vídeos</h3>
+    <p>Os vídeos podem ser inseridos por hospedagem própria ou sendo incorporados de 
+       outras plataformas de hospedagem como o youtube (exemplo abaixo, é a melhor opção).
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8uE9i0aIQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--incorporando um vídeo do youtube-->
+</body>
+</html>
+
