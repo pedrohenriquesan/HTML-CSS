@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {                                              /*seletor para a área body*/
+    background-color: crimson;                    /*alterando a cor de fundo da página*/
+}
+
+h1 {                                                /*seletor para a tag h1*/
+    color: white;                                 /*alterando a cor dos títulos h1*/
+}
+
+h2 {                                                /*seletor para a tag h2*/
+    color: rgb(160, 15, 44);                      /*alterando a cor dos títulos h2*/
+}
+
+p {                                                 /*seletor para a tag p*/
+    font-family: Arial, Helvetica, sans-serif;      /*alterando a fonte dos parágrafos*/
+    font-size: 15px;                                /*alterando o tamanho da fonte dos parágrafos*/
+    text-align: justify;                            /*alinhando o texto dos parágrafos*/
+}
+
