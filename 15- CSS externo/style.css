@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {                                              /*seletor para a área body*/
-    background-color: crimson;                    /*alterando a cor de fundo da página*/
+    background-color: darkgreen;                  /*alterando a cor de fundo da página*/
 }
 
 h1 {                                                /*seletor para a tag h1*/
@@ -9,7 +9,7 @@ h1 {                                                /*seletor para a tag h1*/
 }
 
 h2 {                                                /*seletor para a tag h2*/
-    color: rgb(160, 15, 44);                      /*alterando a cor dos títulos h2*/
+    color: lime;                                  /*alterando a cor dos títulos h2*/
 }
 
 p {                                                 /*seletor para a tag p*/
