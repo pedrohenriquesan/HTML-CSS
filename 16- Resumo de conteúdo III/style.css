@@ -1,0 +1,18 @@
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    background-color: rgb(74, 228, 189);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
