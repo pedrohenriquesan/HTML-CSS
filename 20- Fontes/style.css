@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(250, 124, 102);
+}
+
+h1 {
+    color: #44474e;
+    font-family: 'Times New Roman';                     /*FONT-FAMILY POR NOME*/
+}
+
+h2 {
+    color: #3d3f42;
+    font-family: monospace;                             /*FONT-FAMILY POR CATEGORIA*/
+}
+
+p {
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /*FONT-FAMILY POR SAFE COMBINATION*/
+}
+
