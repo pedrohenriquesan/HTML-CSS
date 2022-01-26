@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*IMPORTANDO FONTES EXTERNAS DO GOOGLE FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');               
+
+main {
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #1c3230;
+}
+
+body {
+    background-image: linear-gradient(to top, #254441, #43AA8B);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #44474e;
+    font-family:'Times New Roman', Times, serif;                    
+    font-size: 2em;
+    text-decoration: underline;                                 /*USO DO TEXT-DECORATION*/  
+    font-style: italic;                                         /*USO DA FONT-STYLE*/  
+}
+
+h2 {
+    color: #3d3f42;
+    font: normal 600 1.3em 'Courier New', Courier, monospace;   /*USO DA SHORTHAND FONT*/
+}
+
+p {
+    text-align: justify;
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;                 
+    font-size: 1em;                                 
+    font-weight: 300;                                           /*USO DA FONT-WEIGHT*/                                              
+}
+
