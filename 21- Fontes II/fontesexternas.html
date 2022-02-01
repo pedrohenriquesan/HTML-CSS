@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main>
         <hr>
         <h1>Fontes externas</h1>
-        <h2>Google fonts</h2>
-        <p>Serviço do Google que disponibiliza centenas de fontes que não estão presentes na 
-            maioria das máquinas, como por exemplo a Work Sans e Kaushan Script que serão utilizadas
-            nessa página, tais fontes oferecidas são totalmente gratuitas. Para importa-las e 
-            usa-las siga o seguinte passo a passo:
+        <h2>DaFont</h2>
+        <p>O site DaFont permite o download de diversas fontes geralmente mais personalizadas
+            (comemorativas), portanto, se atente, muitas dessas fontes não possuem glifos de 
+            acentuação. <br> Passo a passo de aplicação:
         </p>
         <ul>
-            <li>Acesse <a href="https://fonts.google.com/" target="_blank">Google fonts</a>.</li>
-            <li>Navegue no site da maneira desejada e escolha sua fonte.</li>
-            <li>Selecione a mesma.</li>
-            <li>Com a fonte selecionada, selecione também os estilos da mesma que deseja importar clicando em "Select this style".</li>
-            <li>Com a fonte e seus estilos selecionados clique no quadradinho no canto superior direito.</li>
-            <li>Nesse aba são disponibilizados os códigos CSS de importação e de uso com font-family.</li>
-            <li>Cole na sua folha de estilo.</li>
-            <li>obs: a importação deve ser feita antes de todas as declarações no documento CSS.</li>
+            <li>Acesse o site, escolha a fonte e faça o download.</li>
+            <li>Extraia o arquivo zipado da fonte.</li>
+            <li>Na pasta gerada copie o arquivo da fonte .otf e/ou .ttf e cole em uma pasta separada
+                dentro do seu projeto.</li>
+            <li>Com isso, a aplicação da fonte no código css se da pela declaração @font-face:</li>
+            <ul>
+                <li>Com a propriedade font-family você nomeia sua fonte.</li>
+                <li>Dentro da propriedade src, o parâmetro url leva o endereço de memória do arquivo 
+                    da fonte, o parâmetro format leva opentype para otf e truetype para ttf.</li>
+                <li>Depois disso, basta declarar o font-family do conteúdo desejado com o mesmo nome 
+                    dado no primeiro passo.</li>
+            </ul>
         </ul>
-        <p>Foi utilizada a fonte Work Sans nos parágrafos e itens da lista, enquanto a fonte Kaushan Script foi aplicada no título h1.</p>
+        <p>Observe que todo o conteúdo dos parágrafos e das listas ficaram sem acentução, devido a fonte
+            aplicado não conter glifos de acentuação gráfica.
+        </p>
+        <p><a href="fontesexternasgooglef.html">Voltar</a>.</p>
         <hr>
     </main>
 </body>
