@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores personalizados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <hr>
+        <h1 id="principal">Seletores personalizados</h1>                                                            <!--USO DOS IDENTIFICADORES-->
+        <h1>Identificadores</h1>
+        <h2 class="basico">ID no HTML</h2>                                                                          <!--USO DAS CLASSES-->
+        <p>Os ID's <span class="destaque">são responsáveis por permitir a configuração particular entre elementos   <!--USO DA TAG SPAN-->
+            iguais</span>, como dois parágrafos por exemplo, ou seja, nós identificamos um dentre 
+            esses dois parágrafos e criamos um seletor personalizado para aquele id criado. 
+            A criação do id se dá do seguinte modo: dentro da tag p colocamos o parâmetro 
+            (id=”nome”), onde nome é o id
+        </p>
+        <h2 class="intermediario">ID no CSS</h2>
+        <p>Com isso, no CSS, basta colocar #nome como seletor personalizado, por isso, todas as declarações 
+            feitas nesse seletor vão ser aplicadas apenas no elemento com o id nome, enquanto os outros 
+            elementos vão receber os estilos do seletor genérico.
+        </p>
+        <h2 class="avancado destaque">Regra importante</h2>                                                         <!--DUAS CLASSES JUNTAS-->
+        <p>Existe uma regra que limita o uso de um identificador com um determinado nome por página, ou seja, 
+            não pode usar dois identificados com o mesmo nome em dois elementos diferentes, por exemplo, não 
+            é permitido colocar dois h1 como id principal, apesar de funcionar, não é indicado, por isso 
+            existem as classes.
+        </p>
+        <h1>Classes</h1>
+        <h2 class="basico">Classes no HTML</h2>
+        <p>As <span class="destaque">classes servem para o mesmo propósito dos identificadores, com o diferencial 
+            de poder ser aplicada na quantidade necessária de elementos.</span> A criação das classes se da do 
+            seguinte modo: dentro da tag do elemento colocamos o parâmetro (class=”nome”), onde nome é a classe.
+        </p>
+        <h2 class="intermediario">Classes no CSS</h2>
+        <p>Com isso, no CSS, basta colocar .nome como seletor personalizado, depois disso, todas as declarações
+            feitas nesse seletor vão ser aplicadas apenas nos elementos que são daquela classe, enquanto todos
+            os outros elementos vão receber as configurações dos seletores genéricos.
+        </p>
+        <h2 class="avancado destaque">Hierarquia</h2>                                                               
+        <p>Se um elemento possui um id e uma classe ao mesmo tempo, a configuração do id sempre prevalece sobre
+            as classes e sobre o genérico. Por consequência, criando um seletor padrão todos os elementos 
+            assumem aquelas características, quando criamos um id ou classe, se essas tiverem propriedades 
+            já declaradas anteriormente com valores diferentes, os valores antigos serão substituídos pelos
+            novos valores e aquelas propriedades não presentes vão ser herdadas do genérico, o mesmo acontece
+            com o id em relação a classe, com o id sempre perdurando até o fim.
+        </p>
+        <hr>
+    </main>
+</body>
+</html>
+
