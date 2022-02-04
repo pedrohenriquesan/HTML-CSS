@@ -21,7 +21,7 @@ h1 {
     color: #157145;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2 {
@@ -31,21 +31,30 @@ h2 {
 
 p {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    text-indent: 20px;
     text-align: justify;
 }
 
-/*PARTE NOVA PSEUDOCLASSES*/
-div {
-    background-color: grey;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    border: 1px solid black;    
-    display: inline-block;
+#principal {
+    text-indent: 20px;
 }
 
+div {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/*PARTE NOVA PSEUDOCLASSES*/
 div:hover {
+    color: #57A773;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover >p {
+    display: block;
+    color: white;
     background-color: #57A773;
+    width: 300px;
 }
 
