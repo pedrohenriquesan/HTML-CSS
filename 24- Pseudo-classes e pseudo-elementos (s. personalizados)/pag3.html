@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pseudoclasse e pseudoelementos</title>
+    <title>Pseudo-classes e pseudo-elementos</title>
     <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <main>
         <hr>
-        <h1>Pseudoclasses e pseudoelementos</h1>
+        <h1>Pseudo-classes e pseudo-elementos</h1>
         <h2>Personalizando links</h2>
+        <p>Abaixo foram feitas as seguintes configurações: através do seletor genérico um tom de 
+            azul foi determinado como cor do link e o sublinhado foi retirado, através da pseudoclasse
+            hover o sublinhado foi adicionado e o tamanho do texto aumentado, através da pseudoclasse
+            visited a cor foi determinado como um tom de verde para sites já visitados, através da 
+            pseudoclasse active um tom de roxo foi determinado na hora do clique, por fim, através dos
+            pseudo-elementos after e before foram adicionados os textos vistos abaixo em volta dos sites.
+            </p>
         <ul>
-            <li><a href="https://github.com/pedrohenriquesan">Acesse meu Github</a></li>
-            <li><a href="https://www.youtube.com/">Acesse o youtube</a>.</li>
-            <li><a href="https://www.google.com">Acesse o google</a></li>
+            <li><a class="principal" href="https://github.com/pedrohenriquesan" target="_blank">Github</a></li>
+            <li><a class="principal" href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+            <li><a class="principal" href="https://www.google.com" target="_blank">Google</a></li>
         </ul>
+        <h3>Pseudo-clases: visited e active</h3>
+        <p>Usando visited você determina a cor e outras configurações dos links já visitados,
+            uma vez que, por padrão os links já visitados assumem a cor roxa e os não assumem a cor
+            azul, ambos sublinhados. Além disso, todas essas configurações podem ser alteradas pelo 
+            seletor genérico a.
+        </p>
+        <p>Usando active podemos mudar a cor e outras configurações do link no momento em que ele 
+            estiver ativo, ou seja, no momento do clique.
+        </p>
+        <h3>Pseudo-elementos: after e before</h3>
+        <p>Estes podem agir sobre classes, elementos, id's e etc, eles permitem a formatação um pedaço
+            específico do elemento que estão agindo sobre, enquanto as pseudoclasses são representadas 
+            por :, os pseudoelementos são representados por ::. 
+        </p>
+        <p>O pseudo-elemento after insere conteúdo depois do link sem alterar o HTML através da propriedade 
+            content, enquanto o before faz a mesma operação só que antes do link (no nosso exemplo).
+        </p>
+        <a id="final" href="pag2.html">Voltar</a>
         <hr>
     </main>
 </body>
 </html>
 
- 

@@ -26,11 +26,55 @@ h1 {
 
 h2 {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
-li, p {
+h3 {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+p {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     text-align: justify;
+    text-indent: 20px;
+}
+
+li {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-align: justify;
+}
+
+a {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+/*PERSONALIZAÇÃO BÁSICA DOS LINKS*/
+.principal {
+    color: #6A8EAE;
+    text-decoration: none;
+}
+
+.principal:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
+}
+
+/*OUTRAS PSEUDO-CLASSES*/
+.principal:visited {                    /*PERSONALIZA OS LINKS QUE JÁ FORAM VISITADOS*/
+    color: #589369;
+}
+
+.principal:active {                     /*PERSONALIZA OS LINKS NO MOMENTO DO CLIQUE*/
+    color: #ae6aad;
+}
+
+/*PSEUDO-ELEMENTOS*/
+.principal::after {
+    content: ' [acesse pelo link]';     /*INSERE CONTEÚDO APÓS OS LINKS*/
+    font-size: 0.9em;
+}
+
+.principal::before {
+    content: 'Meu ';                    /*INSERE CONTEÚDO ANTES OS LINKS*/
 }
 

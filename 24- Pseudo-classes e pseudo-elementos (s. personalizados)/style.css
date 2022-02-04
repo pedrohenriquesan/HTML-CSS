@@ -26,17 +26,24 @@ h1 {
 
 h2 {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
 p {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.principal {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     text-indent: 20px;
     text-align: justify;
 }
 
-/*PARTE NOVA PSEUDOCLASSES*/
-div {
+div {                                 /*USO DA DIV*/
     background-color: grey;
     text-align: center;
     width: 200px;
@@ -45,7 +52,8 @@ div {
     display: inline-block;
 }
 
+/*PSEUDOCLASSE*/
 div:hover {
-    background-color: #57A773;
+    background-color: #57A773;      /*PSEUDOCLASSE HOVER*/
 }
 

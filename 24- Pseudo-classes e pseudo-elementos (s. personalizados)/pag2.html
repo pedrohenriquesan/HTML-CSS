@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pseudo-classes</title>
+    <title>Pseudo-classes e pseudo-elementos</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
     <main>
         <hr>
-        <h1>Pseudoclasses</h1>
-        <h2>2° exemplo de hover</h2>
-        <p id="principal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut exercitationem 
-            repellendus vitae sequi, nihil nostrum et voluptatum qui voluptates velit laudantium sapiente 
-            blanditiis. Deserunt, illum omnis! Impedit eum enim animi.
+        <h1>Pseudo-classes e pseudo-elementos</h1>
+        <h2>Pseudo-classe hover</h2>
+        <h3>2° exemplo</h3>
+        <p class="principal">No segundo exemplo de hover abaixo, inseri um texto dentro de 
+            uma div e fiz sua omição com a declaração (display: none;), após isso, com a 
+            pseudo-classe hover determinei que quando o cursor passar sobre a mesma o texto
+            deve ser revelado, com background verde, 300px de largura e cor branca.
         </p>
         <p>Passe o cursor do mouse sobre o texto abaixo:</p>
         <div>
             Passe o mouse aqui.
             <p>Conteúdo omitido.</p>
         </div>
+        <p class="principal">Além disso, nas duas declarações feitas em relação ao parágrafo 
+            dentro da div, foi utilizado o sinal de maior >, o mesmo significada filiação, ou seja,
+            o seletor personalizado "div > p" indica que os parágrafos que estão dentro das div's vão 
+            receber as configurações desse seletor. Enquanto a declaração "div:hover >p" indica
+            que quando o cursor for passado sobre a div, os parágrafos da mesma vão assumir 
+            aquelas configurações e não a div por completo.
+        </p>
         <p><a href="index.html">Voltar</a>.</p>
         <p><a href="pag3.html">Próxima página</a>.</p>
         <hr>
