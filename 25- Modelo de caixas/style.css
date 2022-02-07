@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*BOX LEVEL*/
+h1 {
+    background-color: cadetblue;
+
+    height: 300px;                      /*BOX SIZING*/
+    width: 300px;
+
+    border-width: 10px;                 /*TAMANHO DA BORDA*/
+    border-style: solid;                /*TIPO DA BORDA*/
+    border-color: aquamarine;         /*COR DA BORDA*/
+    border: 10px solid aquamarine;    /*SHORTHAND BORDER*/
+
+    padding-top: 10px;                  /*PADDING CIMA*/
+    padding-right: 10px;                /*PADDING DIREITA*/
+    padding-bottom: 10px;               /*PADDING BAIXO*/
+    padding-left: 10px;                 /*PADDING ESQUERDA*/
+    padding: 10px;                      /*SHORTHAND PADDING*/
+
+    margin-top: 20px;                   /*MARGIN CIMA*/
+    margin-right: 20px;                 /*MARGIN DIREITA*/
+    margin-bottom: 40px;                /*MARGIN BAIXO*/
+    margin-left: 20px;                  /*MARGIN ESQUERDA*/
+    margin: 20px auto 40px auto;        /*SHORTHAND MARGIN*/
+
+    outline-width: 5px;                 /*TAMANHO DO OUTLINE*/
+    outline-style: dashed;              /*TIPO DO OUTLINE*/
+    outline-color: blue;              /*COR DO OUTLINE*/
+    outline: 5px dashed blue;         /*SHORTHAND OUTLINE*/
+
+    /*display: inline;                  ALTERANDO O FORMATO DA CAIXA*/
+}
+
+/*INLINE LEVEL*/
+a {
+    border-width: 10px;
+    border-style: solid;
+    border-color: violet;
+
+    /*display: block;                  ALTERANDO O FORMATO DA CAIXA*/
+}
+
