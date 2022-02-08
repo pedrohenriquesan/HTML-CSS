@@ -21,20 +21,32 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 3em;
     text-align: center;
+    padding: 20px;
 }
 
-h2 {
+h2, h3 {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
-p {
+.paragrafo {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     text-indent: 20px;
     text-align: justify;
 }
 
-li {
+li, p {
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
     text-align: justify;
+}
+
+#github {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #B6C0C9;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 

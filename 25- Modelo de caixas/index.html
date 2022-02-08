@@ -5,34 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de caixas</title>
-    <!--<link rel="stylesheet" href="style.css">-->
     <link rel="stylesheet" href="stylefinal.css">
 </head>
 <body>
     <main>
         <hr>
         <h1>Modelo de caixas</h1>
-        <p>Um dos assuntos mais importantes para o desenvolvimento web, o modelo de caixas, tal teoria
-            é aplicada no HTML e no CSS e é responsável por auxiliar na organização do design do site. 
+        <p class="paragrafo">Um dos assuntos mais importantes para o desenvolvimento web é o modelo de caixas, 
+            tal teoria é aplicada no HTML e no CSS e é responsável por auxiliar na organização do design do site. 
             Como o nome já indica, o modelo de caixas está ligado literalmente a caixas, onde todo e 
             qualquer conteúdo de um site se encontra dentro de uma caixa, inclusive quase todas essas tags
             que viemos utilizando, além disso, caixas podem ser inseridas dentro de caixas criando uma 
             hierarquia, tal hierarquia recebe o nome de aninhamento.
         </p>
-        <p>Só para exemplificar, os links são caixas do tipo inline level 
-            (<a href="https://github.com/pedrohenriquesan" target="_blank">Acesse meu Gituhub</a>). 
+        <p class="paragrafo">Só para exemplificar, os links são caixas do tipo inline level 
+            <a id="github" href="https://github.com/pedrohenriquesan" target="_blank">Acesse meu Gituhub</a>. 
             Enquanto os títulos de nível 1 (h1) e os parágrafos são caixas do tipo box level. Veja como 
-            eles se comportam na viwport.
+            eles se comportam na viwport na próxima página.
         </p>
         <h2>Box level</h2>
-        <p>As caixas box-level, as quais sempre se iniciam em uma nova linha e ocupam a largura completa 
-            da viewport (tela). O exemplo mais famoso é a div.
+        <p class="paragrafo">As caixas box-level, são aquelas que sempre se iniciam em uma nova linha e ocupam a largura 
+            completa da viewport (tela). O exemplo mais famoso é a div.
         </p>
         <h2>Inline level</h2>
-        <p>As caixas inline-level, as quais não iniciam em uma nova linha quando há espaço e ocupam apenas
-            o espaço necessário para o conteúdo da caixa. O exemplo mais famoso é a span.
+        <p class="paragrafo">As caixas inline-level, são aquelas que não iniciam em uma nova linha quando há espaço e 
+            ocupam apenas o espaço necessário para o conteúdo da caixa. O exemplo mais famoso é a span.
+        </p>
+        <h2>Propriedades Display</h2>
+        <p class="paragrafo">É importante dizer que é possível alterar o formato de uma caixa, ou seja, é possível 
+            tornar uma caixa box level em inline level e vice versa, tal ação é muito poderosa para os desenvolvedores 
+            e é feita pela propriedade display, onde os valores block, inline e inline block significam 
+            respectivamente: box level, inline level e inline level com algumas propriedades box level como as 
+            declarações de altura e largura.
         </p>
         <h2>Anatomia das caixas</h2>
+        <p>As partes de uma caixa são:</p>
         <ul>
             <li>conteúdo &rarr; conteúdo em si.</li>
             <li>width &rarr; largura da caixa.</li>
@@ -43,12 +50,28 @@
             <li>border &rarr; borda da caixa.</li>
             <li>outline &rarr; tracejado localizado do lado de fora da borda na região do margin, ou seja, também
                 chamado de contorno ou traçado, o contorno é fora do elemento enquanto a borda é dentro do elemento, 
-                pouco utilizado.</li>
+                mas é pouco utilizado.</li>
             <li>margin &rarr; espaço externo entre a caixa e outros elementos fora da caixa, ou seja, além do espaço 
                 interno padding, também é possível alterar o espaço externo da caixa, uma vez que, o padrão faz com 
                 que os elementos de fora da caixa ficam “grudados” na caixa, com isso, para que a borda da caixa não 
                 cole nos conteúdos a sua volta use a propriedade margin.</li>
         </ul>
+        <h3>padding</h3>
+        <p>Declarações individuais: <code>padding-top</code>, <code>padding-right</code>, <code>padding-bottom</code>, 
+            <code>padding-left</code> <br> Shorthand: <code>padding: top right bottom left</code>
+        </p>
+        <h3>border</h3>
+        <p>Declarações individuais: <code>border-width</code>, <code>border-style</code>, <code>border-color</code> 
+            <br> Shorthand: <code>border: width style color</code>
+        </p>
+        <h3>outline</h3>
+        <p>Declarações individuais: <code>outline-width</code>, <code>outline-style</code>, <code>outline-color</code> 
+            <br> Shorthand: <code>outline: width style color</code></p>
+        <h3>margin</h3>
+        <p>Declarações individuais: <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code>, 
+            <code>margin-left</code> <br> Shorthand: <code>margin: top right bottom left</code>
+        </p>
+        <p>Ir para <a href="pagteste.html">página de teste</a></p>
         <hr>
     </main>
 </body>
