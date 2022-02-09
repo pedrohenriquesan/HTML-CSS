@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de agrupamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>                                                                                                    <!--CAIXA HEADER-->
+        <h1>Tags de agrupamento</h1>
+        <nav>                                                                                                   <!--CAIXA NAV-->
+            <p id="plinks">Alguns links de simulação para a tag nav:</p>
+            <a href="#">página 2</a> <br>
+            <a href="#">página 3</a> <br>
+            <a href="#">página 4</a> <br>
+        </nav>
+    </header>
+    <main>                                                                                                      <!--CAIXA MAIN-->
+        <section>                                                                                               <!--CAIXA SECTION-->
+            <h2>Div e Span</h2>
+            <p>Também conhecidas como tags de agrupamento não semânticas, as tags div e span, como
+                já foi citado antes, são tags de agrupamento padrão que sempre foram somente duas 
+                (as quais são usadas para o mesmo propósito, agrupar outros elementos HTML), a div 
+                como box level e a span como inline level, ambas ainda são muito utilizadas na 
+                criação de sites, principalmente com uma estrutura de aninhamento de divs 
+                identificadas (dificultando na hora da aplicação das CSS), no entanto, com o avanço 
+                do HTML essa prática vem perdendo força devido a sua natureza não semântica, ou seja, 
+                as tags div e span não possuem um significado para os nevagadores e algoritmos de 
+                busca, o que não é interessante.
+            </p>
+            <article>                                                                                           <!--CAIXA ARTICLE-->
+                <h3>div</h3>
+                <p>A div é uma caixa do tipo box level não semântica, ou seja, é uma caixa que ocupa 
+                    100% da largura da viewport, se inicia sempre em uma nova linha e não possui um 
+                    significado.
+                </p>
+                <h3>span</h3>
+                <p>A span é uma caixa do tipo inline level não semântica, ou seja, é uma caixa que 
+                    ocupa somente a largura necessária do seu conteúdo, se inicia no local onde é 
+                    declarada e não possui significado.
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2>Tags de agrupamento semânticas</h2>
+            <p>Essas, assim como as não semânticas servem basicamente para AGRUPAR outros elementos 
+                HTML, mas o seu diferencial é a característica semântica. Por isso, cada tag mostrada 
+                abaixo possui um significado, tal característica permite uma melhor relação com os 
+                algoritmos de busca dos navegadores e facilita bastante na hora da aplicação das CSS. 
+                Por fim, vale lembrar que as tags div e span não estão obsoletas, podem sim ser 
+                utilizadas, mas não trazem os benefícios supracitados acima. Algumas dessas tags:
+            </p>
+            <ul>
+                <li>header</li>
+                <li>main</li>
+                <li>footer</li>
+                <li>nav</li>
+                <li>section</li>
+                <li>article</li>
+                <li>aside</li>
+            </ul>
+            <article>
+                <h3>header</h3>
+                <p>A caixa header é responsável por indicar a área de cabeçalho, seja ele do site, 
+                    das seções (section) ou de artigos (article), normalmente recebe títulos de todos
+                    os níveis (h1-h6).
+                </p>
+                <aside>                                                                                         <!--CAIXA ASIDE-->
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>main</h3>
+                <p>A caixa main é responsável por indicar a área do conteúdo principal do site, 
+                    normalmente comporta seções (section), artigos (article) e conteúdos secundários 
+                    (aside).
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>footer</h3>
+                <p>A caixa footer é responsável por indicar a área de rodapé do site, seção (section) 
+                    ou artigo (article), leva informações que não fazem parte nem do conteúdo nem do 
+                    conteúdo periférico/secundário, informações como links adicionais, mapa do site e 
+                    outros documentos.
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>nav</h3>
+                <p>A caixa nav é responsável por indicar uma área de navegação entre páginas do site 
+                    que levam links em si, geralmente usadas em menus de navegação e é mais
+                    presente no cabeçalho (header).
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>section</h3>
+                <p>A caixa section é responsável por indicar seções do seu conteúdo para maior 
+                    organização, pode ter seu conteúdo solto ou dividido em artigos (article) e 
+                    geralmente possuem cabeçalhos (header).
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>article</h3>
+                <p>A caixa article é responsável por indicar subseções/artigos do seu conteúdo para 
+                    maior organização, geralmente vai dentro das seções (section).
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+            <article>
+                <h3>aside</h3>
+                <p>A caixa aside é responsável por indicar conteúdos periféricos/secundários de seções 
+                    (section) ou artigos (article).
+                </p>
+                <aside>
+                    <p>Por Pedro H S Araujo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>                                                                                                    <!--CAIXA FOOTER-->
+        <p>Desenvolvido por Pedro Henrique Santos Araujo</p>
+    </footer>
+</body>
+</html>
+

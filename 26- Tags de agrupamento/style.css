@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Patrick+Hand&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');    
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    background-color: #603452;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+/*CONFIGURANDO A HEADER*/
+header {                                
+    background-color: #F4FAFF;
+    width: 700px;
+    padding: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+/*CONFIGURANDO A NAV*/
+nav > a {                               
+    color: #08090A;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+nav > a:hover {
+    font-size: 1.1em;
+    color: #EC9A29;
+}
+
+#plinks {
+    margin: 2px;
+}
+
+/*CONFIGURANDO A MAIN*/
+main {
+    background-color: #F4FAFF;
+    padding: 10px;
+    width: 700px;
+    margin: auto;
+}
+
+h2 {
+    color: #8789C0;
+    font-size: 2em;
+}
+
+h3 {
+    color: #EC9A29;
+    font-size: 1.5em;
+    margin: 2px;
+}
+
+p {
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    color: #08090A;
+}
+
+/*CONFIGURANDO A ARTICLE E A ASIDE*/
+article {
+    background-color: #E0E0E0;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: #9F9F9F;
+    width: 200px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-indent: 5px;
+    font-size: 0.8em;
+}
+
+/*CONFIGURANDO A FOOTER*/
+footer {
+    background-color: #08090A;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+}
+
