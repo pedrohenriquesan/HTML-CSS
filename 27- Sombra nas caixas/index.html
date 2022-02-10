@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombra nas caixas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>                                                                                     
+        <h1>Sombra nas caixas</h1>
+        <nav>                                                                                                   
+            <p id="plinks">Alguns links de simulação para a tag nav:</p>
+            <a href="https://github.com/pedrohenriquesan" target="_blank">Meu github</a> <br>
+            <a href="#">página 3</a> <br>
+            <a href="#">página 4</a> <br>
+        </nav>
+    </header>
+    <main>                                                                                               
+        <section>
+            <h2>Sombreamento</h2>
+            <p>Agora que já vimos os principais tipos de caixas usadas na estrutura de um
+                site vamos partir para o sombreamento dessas caixas, ou seja, vamos aplicar 
+                sombras nas caixas para dar a sensação de que elas realmente estão ali, isso 
+                acontece devido ao volume dado, do mesmo modo que na vida real, onde folhas em 
+                cima de uma mesa projetam sombras. No entanto, tome cuidado na hora da 
+                inserção de sombras, uma vez que, não é necessário destaca-las, pois, é eminente
+                ao cérebro humano percebe-las de forma inconsciente, por isso elas devem 
+                ser sutis.
+            </p>
+            <article>
+                <p>Em outras propriedades existiam declarações isoladas e as shorthands, 
+                    porém, aqui no estudo de sombras vamos partir direto para a shorthand, 
+                    a qual é a propriedade box-shadow que recebe os seguintes valores: 
+                    deslocamento horizontal e vertical da sombra, espalhamento e cor.
+                </p>
+                <aside>
+                    <p>Existe uma variação que adiciona um parâmetro de embaçamento (blur) 
+                        entre espalhamento (spread) e cor, mas os principais são esses 
+                        apresentados acima.
+                    </p>
+                </aside>
+                <aside>
+                    <ul>
+                        <li>Deslocamento horizontal: valor positivo projeta sombra a direita, 
+                            enquanto o negativo projeta a esquerda.</li>
+                        <li>Deslocamento vertical: valor positivo projeta sombra para baixo, 
+                            enquanto o negativo projeta para cima.</li>
+                        <li>O espalhamento indica por quantos pixels a sombra vai se estender.</li>
+                        <li>Por fim, existe a possibilidade de colocar essas sombras na parte 
+                            interna das caixas, para isso a shorthand é usada da mesma forma, mas 
+                            com o diferencial de adicionar “inset” antes dos valores.</li>
+                    </ul>
+                </aside>
+            </article>
+            <p>Observe: a sombra externa foi aplicada na caixa nav, enquanto a sombra interna
+                foi aplicada no título de nível 1 (h1), ademais, se preferir uma sombra com 
+                embaçamento basta colocar o valor do mesmo após o parâmetro de espalhamento.
+            </p>
+        </section>
+    </main>
+    <footer>                                                                                                  
+        <p>Desenvolvido por Pedro Henrique Santos Araujo</p>
+    </footer>
+</body>
+</html>
+
