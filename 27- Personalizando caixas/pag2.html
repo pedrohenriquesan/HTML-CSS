@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando caixas - Bordas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="arredondaheader">                                                                                     
+        <h1>Arredondando bordas</h1>
+        <nav id="arredondanav">                                                                                                   
+            <p id="plinks">Links úteis</p>
+            <a href="https://github.com/pedrohenriquesan" target="_blank">Meu github</a> <br>
+            <a href="index.html">Voltar</a> <br>
+            <a href="#">página 3</a> <br>
+        </nav>
+    </header>
+    <main id="arredondamain">                                                                                               
+        <section>
+            <h2>Arredondamento</h2>
+            <p>Uma característica muito forte em sites mais trabalhados são as bordas 
+                arredondadas das nossas queridas caixas, vamos ver agora qual a ou as 
+                propriedades responsáveis por essa configuração. Do mesmo modo que fizemos 
+                com as sombras, aqui vamos direto para a shorthand, a queridinha da vez é a 
+                border-radius que compacta outras quatro declarações que arredondam os quatro 
+                cantos individualmente, ou seja, elas determinam o raio da borda. 
+            </p>
+            <article>
+                <p>Em resumo, a propriedade border-radius compacta outras 4 propriedades, as quais são:</p>
+                <aside>
+                    <ul>
+                        <li>border-top-left-radius configura o canto superior esquerdo.</li>
+                        <li>border-top-right-radius configura o canto superior direito.</li>
+                        <li>border-bottom-right-radius configura o canto inferior direito.</li>
+                        <li>border-bottom-left-radius configura o canto inferior esquerdo.</li>
+                    </ul>
+                </aside>
+                <aside>
+                    <p>Com essa característica, podemos associar essa shorthand com outras duas já vistas
+                        anteriormente, margin e padding, ambas são shorthands que compactam outros quatro
+                        cantos e suas características, por isso, é plausível dizer que podemos usar 
+                        border-radius das seguintes formas (um valor só para os quatro cantos, declaração
+                        individual para cada canto e a declaração dupla):
+                    </p>
+                    <ul>
+                        <li>border-radius com 4 valores individuais, onde a ordem de aplicação é: superior 
+                            esquerdo, superior direito, inferior direito e inferior esquerdo.</li>
+                        <li>border-radius com uma declaração dupla, onde o primeiro valor se direciona para 
+                            os cantos superior esquerdo e inferior direito, enquanto o segundo vai para os 
+                            cantos superior direito e inferior esquerdo.</li>
+                    </ul>
+                </aside>
+            </article>
+            <p>Por fim, é possível fazer literalmente uma bola usando essa propriedade, basta colocar o 
+                valor em porcentagem de 50%. Veja:
+            </p>
+        </section>
+        <section>
+            <div id="bola"></div>
+        </section>
+    </main>
+    <footer>                                                                                                  
+        <p>Desenvolvido por Pedro Henrique Santos Araujo</p>
+    </footer>
+</body>
+</html>
+
