@@ -139,3 +139,18 @@ footer > p{
     text-align: center;
 }
 
+/*BORDAS PERSONALIZADAS*/
+#decoradah1 {
+    border: 10px solid black;
+    padding: 20px;
+    border-image-source: url("imagens/bordadecorada.png");
+    border-image-slice: 36;
+    border-image-repeat: repeat;
+}
+
+#decoradah2 {
+    border: 10px solid black;
+    padding: 20px;
+    border-image: url("imagens/bordadecorada.png") 36 repeat;
+}
+
