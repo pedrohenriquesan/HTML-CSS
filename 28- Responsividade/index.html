@@ -9,30 +9,24 @@
 </head>
 <body>
     <main>
-        <h1>Teste de responsividade</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odit iste 
-            corporis molestias ad, quae voluptatibus saepe consequatur repellat porro ipsum 
-            quos veniam sequi! Numquam molestias maiores cumque dolor. Lorem ipsum dolor sit 
-            amet consectetur adipisicing elit. Ipsam dolores aperiam voluptate fuga distinctio 
-            officia reiciendis rem saepe labore quam. Eum laudantium asperiores officia 
-            consequatur debitis hic totam nobis labore. Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Quia quidem debitis earum. Reprehenderit id impedit voluptates 
-            quod porro. Consequuntur amet quasi sunt nemo, eaque id explicabo? Quis 
-            necessitatibus aliquam at.
+        <h1>Responsividade</h1>
+        <p>A responsividade é um conceito muito simples em sua essência, basicamente, responsividade
+            se trata da adaptação dos tamanhos e conteúdos dos sites em diferentes tamanhos de telas
+            (computadores, celulares e etc), ou seja, um site responsivo é aquele que responde se 
+            adaptando ao tamanho da tela onde ele está sendo exibido sem perder os seus sentidos, tanto
+            em relação ao conteúdo quando ao design e navegação.
         </p>
         <picture>
-            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">  <!--QUANDO A VIEWPORT ATINGE 800PX OU MENOS A IMAGEM É SUBSTÍTUIDA-->
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">  
             <img src="imagens/irina-blok.jpg" alt="">
         </picture>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eum odit iste 
-            corporis molestias ad, quae voluptatibus saepe consequatur repellat porro ipsum 
-            quos veniam sequi! Numquam molestias maiores cumque dolor. Lorem ipsum dolor sit 
-            amet consectetur adipisicing elit. Ipsam dolores aperiam voluptate fuga distinctio 
-            officia reiciendis rem saepe labore quam. Eum laudantium asperiores officia 
-            consequatur debitis hic totam nobis labore. Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Quia quidem debitis earum. Reprehenderit id impedit voluptates 
-            quod porro. Consequuntur amet quasi sunt nemo, eaque id explicabo? Quis necessitatibus 
-            aliquam at.
+        <p>Existem várias maneiras de se aplicar esse conceito na prática, mas a primeira e mais prática 
+            é a ideia da limitação dos tamanhos mínimos e máximos da largura de uma interface, com as 
+            propriedades CSS min-width e max-width. Ademais, para as imagens o conjunto das tags picture
+            e source ajuda muito na hora de tornar imagens responsivas, onde criamos duas versões da mesma 
+            imagem, uma menor e outra maior, com isso, cetamos um source com max-width de 800 pixels por 
+            exemplo e como srcset a imagem menor, com essa declaração quando a largura da viewport atingir 
+            800 pixels ou menos a imagem será substítuida pela indicada no srcser do source.
         </p>
     </main>
 </body>
