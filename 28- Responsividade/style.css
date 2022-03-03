@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;           /*largura máxima*/
+    min-width: 320px;           /*largura mínima*/
+    margin: auto;
+}
+
+img {
+    width: 100%;                /*imagem ocupa 100% da viewport*/
+}
+
