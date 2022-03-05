@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    min-height: 150px;      /*USO DO HEIGHT MÍNIMO P/ RESPONSIVIDADE*/
+    min-height: 150px;                                          /*USO DO HEIGHT MÍNIMO P/ RESPONSIVIDADE*/
     text-align: center;
     padding-top: 40px;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -68,7 +68,7 @@ nav > a {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    transition-duration: 0.5s;      /*TRANSIÇÕES*/
+    transition-duration: 0.5s;                                  /*TRANSIÇÕES*/
 }
 
 nav > a:hover {
@@ -78,7 +78,7 @@ nav > a:hover {
 
 main {
     background-color: white;
-    max-width: 1000px;          /*USO DO WIDTH MÁXIMO E MÍNIMO P/ RESPONSIVIDADE*/
+    max-width: 1000px;                                          /*USO DO WIDTH MÁXIMO E MÍNIMO P/ RESPONSIVIDADE*/
     min-width: 300px;
     margin: auto;
     margin-bottom: 30px;
@@ -94,10 +94,44 @@ main > article > h1 {
 
 main > article > h2 {
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;                                           /*ALTURA DA LINHA (ESPAÇAMENTO ENTRELINHAS)*/
+}
+
+main strong {
+    color: var(--cor4);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
 }
 
 main > article > picture > img {
-    width: 100%;                    /*IMAGENS OCUPAM 100% DA CAIXA*/
+    width: 100%;                                                /*IMAGENS OCUPAM 100% DA CAIXA*/
+}
+
+main > article > img {
+    display: block;
+    margin: auto;
 }
 
 footer {
