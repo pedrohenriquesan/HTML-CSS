@@ -22,3 +22,115 @@
     padding: 0px;
 }
 
+body {
+    background-color: var(--cor4);
+    padding: 0px 10px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    padding: 30px 0px 20px 0px;
+    margin: 0px -10px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--fonteALTA);
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+nav {
+    background-color: var(--cor2);
+    padding: 10px;
+    margin: 0px -10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--preto);
+    font-family: var(--fonteBAIXA);
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 31px;
+}
+
+nav a:hover {
+    background-color: var(--cor0);
+    color: var(--branco);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+main  {
+    background-color: var(--branco);
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.279);
+}
+
+main h2 {
+    font-family: var(--fonteBAIXA);
+    font-size: 1.8em;
+}
+
+main p {
+    font-family: var(--fonteBAIXA);
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main > img {
+    width: 70%;
+    margin: 10px 0px 30px 20px;
+}
+
+article h3 {
+    font-family: var(--fonteBAIXA);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+article img {
+    margin: 10px 0px 10px 0px;
+    width: 20%;
+}
+
+footer {
+    background-color: var(--cor0);
+    max-width: 1000px;
+    min-width: 350px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.279);
+}
+
+footer p {
+    font-family: var(--fonteBAIXA);
+    font-size: 1.1em;
+    color: var(--branco);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: var(--fonteBAIXA);
+    color: var(--branco);
+}
+
+footer a:hover {
+    background-color: var(--cor3);
+    color: var(--preto);
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+
