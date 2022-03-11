@@ -52,7 +52,7 @@ nav a {
     font-weight: 500;
     text-decoration: none;
     color: var(--preto);
-    padding: 5px 8px;
+    padding: 5px 10px;
 }
 
 nav a:hover {

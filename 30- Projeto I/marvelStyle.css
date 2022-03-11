@@ -38,6 +38,8 @@ header h1 {
     font-family: var(--fonteALTA);
     font-size: 2.5em;
     font-weight: 700;
+    color: var(--branco);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.367);
 }
 
 nav {
@@ -48,7 +50,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: var(--preto);
+    color: var(--branco);
     font-family: var(--fonteBAIXA);
     font-size: 1.1em;
     font-weight: 500;
@@ -56,8 +58,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--cor0);
-    color: var(--branco);
+    background-color: var(--cor4);
+    color: var(--preto);
     transition-duration: 0.5s;
     border-radius: 5px;
 }
@@ -102,6 +104,10 @@ article img {
     width: 20%;
 }
 
+.ultimo {
+    margin-bottom: 30px;
+}
+
 footer {
     background-color: var(--cor0);
     max-width: 1000px;
@@ -110,7 +116,7 @@ footer {
     margin: auto;
     border-radius: 0px 0px 5px 5px;
     margin-bottom: 5px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.279);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.387);
 }
 
 footer p {
