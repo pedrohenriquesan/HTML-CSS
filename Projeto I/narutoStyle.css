@@ -6,12 +6,11 @@
 
 :root {
     --preto: #000000;
-    --cor0: #5a5a5a;
-    --cor1: #606060;
-    --cor2: #808080;
-    --cor3: #a0a0a0;
-    --cor4: #c4c4c4;
-    --branco: #ffffff;
+    --cor0: #F6560C;
+    --cor1: #EB6200;
+    --cor2: #F6850C;
+    --cor3: #ff9b31;
+    --branco: #ffeedd;
 
     --fonteALTA: 'Cinzel', serif;
     --fonteBAIXA: 'Smooch Sans', sans-serif;
@@ -30,39 +29,16 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2));
-    padding: 30px 0px 20px 0px;
+    padding: 46.6px 0px;
     margin: 0px -10px;
 }
 
 header h1 {
     text-align: center;
     font-family: var(--fonteALTA);
+    color: var(--branco);
     font-size: 2.1em;
-    font-weight: 700;
-    color: var(--branco);
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.238);
-}
-
-nav {
-    background-color: var(--cor2);
-    padding: 10px;
-    margin: 0px -10px;
-}
-
-nav a {
-    font-family: var(--fonteBAIXA);
-    font-size: 1.1em;
-    font-weight: 500;
-    color: var(--branco);
-    padding: 5px 12px;
-}
-
-nav a:hover {
-    background-color: var(--cor4);
-    color: var(--preto);
-    transition-duration: 0.5s;
-    border-radius: 5px;
-    font-weight: 600;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.313);
 }
 
 main {
@@ -71,8 +47,8 @@ main {
     min-width: 250px;
     margin: auto;
     padding: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.238);
     border-radius: 5px 5px 0px 0px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.224);
 }
 
 main h2 {
@@ -83,46 +59,57 @@ main h2 {
 
 main p {
     font-family: var(--fonteBAIXA);
-    font-size: 1.1em;
     font-weight: 500;
-    line-height: 1.5;
+    font-size: 1.1em;
     text-indent: 20px;
     text-align: justify;
+    line-height: 1.5;
 }
 
-main img {
-    margin: 10px 0px 20px 20px;
-    width: 71%;
+main > img {
+    width: 80%;
+    margin: 10px 0px 30px 20px;
+}
+
+article h3 {
+    font-family: var(--fonteBAIXA);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+article  img {
+    margin: 10px 0px 20px 0px;
+    width: 20%;
 }
 
 footer {
-    background-color: var(--cor0);
+    background-color: var(--cor1);
+    padding: 20px;
     max-width: 1000px;
     min-width: 250px;
-    padding: 20px;
     margin: 0px auto 5px auto;
     border-radius: 0px 0px 5px 5px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.224);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.238);
 }
 
 footer p {
-    color: var(--branco);
     font-family: var(--fonteBAIXA);
     font-size: 1.2em;
+    color: var(--branco);
     text-align: center;
 }
 
 footer a {
-    color: var(--branco);
     font-family: var(--fonteBAIXA);
+    color: var(--branco);
 }
 
 footer a:hover {
-    background-color: var(--cor4);
+    background-color: #ff9b31;
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.5s;
     color: var(--preto);
     font-weight: 600;
-    transition-duration: 0.5s;
-    padding: 5px;
-    border-radius: 5px;
 }
 

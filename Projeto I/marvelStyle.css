@@ -6,12 +6,11 @@
 
 :root {
     --preto: #000000;
-    --cor0: #5a5a5a;
-    --cor1: #606060;
-    --cor2: #808080;
-    --cor3: #a0a0a0;
-    --cor4: #c4c4c4;
-    --branco: #ffffff;
+    --cor0: #660007;
+    --cor1: #7a2429;
+    --cor2: #B3000C;
+    --cor3: #d8000eef;
+    --branco: #ffecec;
 
     --fonteALTA: 'Cinzel', serif;
     --fonteBAIXA: 'Smooch Sans', sans-serif;
@@ -29,7 +28,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2));
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     padding: 30px 0px 20px 0px;
     margin: 0px -10px;
 }
@@ -40,7 +39,7 @@ header h1 {
     font-size: 2.1em;
     font-weight: 700;
     color: var(--branco);
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.238);
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.367);
 }
 
 nav {
@@ -50,29 +49,29 @@ nav {
 }
 
 nav a {
+    color: var(--branco);
     font-family: var(--fonteBAIXA);
     font-size: 1.1em;
     font-weight: 500;
-    color: var(--branco);
-    padding: 5px 12px;
+    padding: 5px 31px;
 }
 
 nav a:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     color: var(--preto);
     transition-duration: 0.5s;
     border-radius: 5px;
     font-weight: 600;
 }
 
-main {
+main  {
     background-color: var(--branco);
     max-width: 1000px;
     min-width: 250px;
     margin: auto;
     padding: 20px;
     border-radius: 5px 5px 0px 0px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.224);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.279);
 }
 
 main h2 {
@@ -80,19 +79,42 @@ main h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
-
 main p {
     font-family: var(--fonteBAIXA);
     font-size: 1.1em;
     font-weight: 500;
     line-height: 1.5;
-    text-indent: 20px;
     text-align: justify;
+    text-indent: 20px;
 }
 
-main img {
-    margin: 10px 0px 20px 20px;
-    width: 71%;
+main > img {
+    width: 80%;
+    margin: 10px 0px 30px 20px;
+}
+
+article h3 {
+    font-family: var(--fonteBAIXA);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.padrao {
+    margin: 10px 0px 40px 0px;
+    width: 20%;
+}
+
+.media500 {
+    display: none;
+}
+
+aside {
+    display: flex;
+}
+
+aside > p {
+    margin: 10px 0px 0px 20px;
+    text-indent: 20px;
 }
 
 footer {
@@ -102,27 +124,49 @@ footer {
     padding: 20px;
     margin: 0px auto 5px auto;
     border-radius: 0px 0px 5px 5px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.224);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.387);
 }
 
 footer p {
-    color: var(--branco);
     font-family: var(--fonteBAIXA);
     font-size: 1.2em;
+    color: var(--branco);
     text-align: center;
 }
 
 footer a {
-    color: var(--branco);
     font-family: var(--fonteBAIXA);
+    color: var(--branco);
 }
 
 footer a:hover {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     color: var(--preto);
     font-weight: 600;
+    border-radius: 5px;
     transition-duration: 0.5s;
     padding: 5px;
-    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .padrao {
+        display: none;
+    }
+
+    .media500 {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    aside {
+        display: block;
+    }
+    
+    aside > p {
+        margin: 10px 0px 40px 0px;
+        text-indent: 20px;
+    }
 }
 
