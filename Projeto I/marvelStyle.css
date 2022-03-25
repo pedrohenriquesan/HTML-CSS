@@ -79,6 +79,7 @@ main h2 {
     font-size: 1.5em;
     font-weight: 700;
 }
+
 main p {
     font-family: var(--fonteBAIXA);
     font-size: 1.1em;
@@ -90,7 +91,7 @@ main p {
 
 main > img {
     width: 80%;
-    margin: 10px 0px 30px 20px;
+    margin: 20px 0px 50px 20px;
 }
 
 article h3 {
@@ -104,7 +105,11 @@ article h3 {
     width: 20%;
 }
 
-.media500 {
+.media500{
+    display: none;
+}
+
+.media800 {
     display: none;
 }
 
@@ -148,25 +153,40 @@ footer a:hover {
     padding: 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+    main > img {
+        width: 100%;
+        margin: 5px auto 20px auto;
+    }
+
     .padrao {
         display: none;
     }
 
-    .media500 {
+    .media800 {
         display: block;
-        width: 100%;
-        margin: auto;
-        margin-bottom: 10px;
+        margin: 5px 0px 20px 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    .media800 {
+        display: none;
     }
 
     aside {
         display: block;
     }
-    
+
     aside > p {
         margin: 10px 0px 40px 0px;
         text-indent: 20px;
+    }
+
+    .media500 {
+        display: block;
+        width: 100%;
+        margin: 0px auto 10px auto;
     }
 }
 
