@@ -92,7 +92,7 @@ main p {
 
 main img {
     margin: 10px 0px;
-    width: 71%;
+    width: 100%;
 }
 
 footer {
@@ -124,15 +124,5 @@ footer a:hover {
     transition-duration: 0.5s;
     padding: 5px;
     border-radius: 5px;
-}
-
-@media (max-width: 800px) {
-    main img {
-        width: 100%;
-    }
-
-    nav a {
-        padding-right: 9px;
-    }
 }
 

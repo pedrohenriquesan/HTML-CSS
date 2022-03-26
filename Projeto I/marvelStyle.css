@@ -90,8 +90,8 @@ main p {
 }
 
 main > img {
-    width: 80%;
-    margin: 20px 0px 50px 20px;
+    width: 100%;
+    margin: 10px 0px;
 }
 
 article h3 {
@@ -105,11 +105,7 @@ article h3 {
     width: 20%;
 }
 
-.media500{
-    display: none;
-}
-
-.media800 {
+.media500, .media800 {
     display: none;
 }
 
@@ -154,11 +150,6 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
-    main > img {
-        width: 100%;
-        margin: 5px auto 20px auto;
-    }
-
     .padrao {
         display: none;
     }
