@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.quadrado {
+div {
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
@@ -24,4 +24,31 @@ body {
 #q3 {
     background-image: url('imagens/pattern003.png');    /*IMAGENS DE FUNDO*/
 }
+
+/*-------------------*/
+
+#bodyDois {
+    background-image: url('imagens/pattern001.png');
+    background-size: 100px 100px;                       /*TAMANHO DAS IMAGENS DE FUNDO*/
+}
+
+#repeat1 {
+    background-image: url('imagens/pattern002.png');
+    background-repeat: repeat;                          /*MODOS DE REPETIÇÃO DAS IMAGENS DE FUNDO*/
+}
+
+#repeat2 {
+    background-image: url('imagens/pattern002.png');
+    background-repeat: no-repeat;                       /*MODOS DE REPETIÇÃO DAS IMAGENS DE FUNDO*/
+}
+
+#repeat3 {
+    background-image: url('imagens/pattern002.png');
+    background-repeat: repeat-x;                        /*MODOS DE REPETIÇÃO DAS IMAGENS DE FUNDO*/
+}
+
+#repeat4 {
+    background-image: url('imagens/pattern002.png');
+    background-repeat: repeat-y;                        /*MODOS DE REPETIÇÃO DAS IMAGENS DE FUNDO*/
+}                           
 
