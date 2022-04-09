@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Media queries</h1>
+    </header>
+    <nav>
+        <a href="#oquesao">O que são</a>
+        <a href="#facilitando">Facilitando</a>
+        <a href="#sintaxe">Sintaxe</a>
+        <a href="#informacoes">Outras informações</a>
+    </nav>
+    <main>
+        <h2 id="oquesao">O são media queries</h2>
+        <p>Um media query consiste em uma folha de estilo alternativa, a qual deve conter no mínimo uma expressão de estilização, essas são usadas para adaptar o conteúdo de um site para quaisquer tamanhos de telas em diferentes dispositivos sem alterar o mesmo (conteúdo).</p>
+        <h2 id="facilitando">Facilitando o entendimento</h2>
+        <p>Em outras palavras, um media query assume estilos alternativos para um mesmo conteúdo, tal estilo só é aplicado sob a condição de um tamanho especifico de tela chamadas media features, ou seja, imagine que você crie um media query com condição de largura máxima de 800 pixels, com isso, os estilos declarados nessa media query só vão ser aplicados em dispositivos com telas de 800 pixels ou menos de largura.</p>
+        <h2 id="sintaxe">Sintaxe</h2>
+        <p>A sintaxe para a criação de um media query é simples e pode ser criado no mesmo arquivo do estilo principal ou em um arquivo separado, mas em ambos os casos um media query é indicado da seguinte forma, usando largura máxima de exemplo:</p>
+        <img src="imagens/media.PNG" alt="Exemplo de media query">
+        <h2 id="informacoes">Outras informações</h2>
+        <p>Por fim, é possível criar media queries com condições de aplicação mais complexas utilizando operadores lógicos:</p>
+        <ul>
+            <li>O operador and combina múltiplas condições em uma mesma media query.</li>
+            <li>O operador not é usado para negar uma media query por completo.</li>
+            <li>Também é possível combinar múltiplas queries em uma lista separadas por vírgula, equivalente ao operador or, ou seja, se uma das queries for verdadeira, todas são.</li>
+        </ul>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/pedrohenriquesan">Pedro Henrique Santos Araujo</a></p>
+    </footer>
+</body>
+</html>
+
