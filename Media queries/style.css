@@ -39,24 +39,20 @@ header h1 {
 
 nav {
     background-color: var(--cor1);
-    padding: 10px 0px;
     box-shadow: 3px 3px 8px var(--cor1);
     margin: 0px -10px;
+    padding: 10px;
 }
 
 nav a {
     color: var(--branco);
-    padding: 5px 14px;
-    margin: 5px;
+    padding: 10px 17px;
 }
 
 nav a:hover {
     background-color: var(--cor2);
-    color: var(--branco);
-    border-radius: 5px;
     transition-duration: 0.5s;
     color: var(--preto);
-    font-weight: 600;
 }
 
 main {
@@ -80,10 +76,14 @@ main > p {
     margin: 5px 0px 10px 0px;
 }
 
-img {
+#padrao {
     display: block;
     width: 80%;
     margin: 0px auto 20px auto;
+}
+
+#media900, #media600 {
+    display: none;
 }
 
 ul {
@@ -97,7 +97,7 @@ li {
 footer {
     max-width: 1100px;
     min-width: 350px;
-    margin: auto;
+    margin: 0px auto 5px auto;
     background-color: var(--cor1);
     padding: 20px;
     text-align: center;
@@ -121,10 +121,27 @@ footer a:hover {
     font-weight: 600;
 }
 
-@media (max-width: 800px) {
-    /*DECLARAÇÃO DE ESTILO*/
-    /*DECLARAÇÃO DE ESTILO*/
-    /*DECLARAÇÃO DE ESTILO*/
-    /*DECLARAÇÃO DE ESTILO*/
+@media (max-width: 900px) {
+    #padrao {
+        display: none;
+    }
+    
+    #media900 {
+        display: block;
+        width: 80%;
+        margin: 0px auto 20px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    #media900 {
+        display: none;
+    }
+
+    #media600 {
+        display: block;
+        width: 80%;
+        margin: 0px auto 20px auto;
+    }
 }
 
