@@ -36,9 +36,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7em;
     font-weight: 400;
-    background-image: linear-gradient(to left, rgb(102, 102, 245), transparent);
     color: black;
-    padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -75,7 +73,7 @@ h3 {
 .divexterna {
     display: flex;            /*PROPRIEDADE E VALOR RESPONSÁVEL POR CRIAR O CONTÊINER FLEX*/
     flex-direction: row;      /*VALOR PADRÃO DE FLEX-DIRECTION, ESSA LINHA PODE SER CORTADA*/
-    flex-wrap: nowrap;        /*VALOR PADRÃO DE FLEX-WRAP, ESSA LINHA PODE SER CORTADA*/
+    flex-wrap: wrap;          /*VALOR PADRÃO DE FLEX-WRAP, ESSA LINHA PODE SER CORTADA*/
     /*flex-flow: row wrap;    SHORTHAND PARA AS DUAS PROPRIEDADES ACIMA*/
     margin-bottom: 20px;
 }

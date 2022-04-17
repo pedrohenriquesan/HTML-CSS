@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 350px;
+    background-color: rgb(234, 234, 234);
+    margin: auto;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.159);
+}
+
+h3 {
+    font-weight: 400;
+}
+
+p {
+    background-color: rgb(113, 113, 245);
+    margin: 5px;
+}
+
+.destaque {
+    font-size: 0.9em;
+}
+
+section {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.112);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/*propriedade display*/
+
+div {
+    display: flex;
+}
+
+/*propriedade flex-direction*/
+
+#divrow {
+    flex-direction: row;
+}
+
+#divrowreverse {
+    flex-direction: row-reverse;
+}
+
+#divcolumn {
+    flex-direction: column;
+}
+
+#divcolumnreverse {
+    flex-direction: column-reverse;
+}
+
+/*propriedade flex-wrap*/
+
+#divwrap {
+    flex-wrap: wrap;
+}
+
+#divnowrap {
+    flex-wrap: nowrap;
+}
+
