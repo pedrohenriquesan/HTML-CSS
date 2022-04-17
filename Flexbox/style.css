@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    padding: 40px 0px;
+    background-color: rgb(42, 42, 193);
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.433);
+}
+
+main {
+    max-width: 1000px;
+    min-width: 350px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    background-image: linear-gradient(to left, rgb(102, 102, 245), transparent);
+    color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.paragrafocomum {
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(42, 42, 193);
+}
+
+/*USO DE FLEXBOX*/
+
+.divexterna {
+    display: flex;            /*PROPRIEDADE E VALOR RESPONSÁVEL POR CRIAR O CONTÊINER FLEX*/
+    flex-direction: row;      /*VALOR PADRÃO DE FLEX-DIRECTION, ESSA LINHA PODE SER CORTADA*/
+    flex-wrap: nowrap;        /*VALOR PADRÃO DE FLEX-WRAP, ESSA LINHA PODE SER CORTADA*/
+    /*flex-flow: row wrap;    SHORTHAND PARA AS DUAS PROPRIEDADES ACIMA*/
+    margin-bottom: 20px;
+}
+
+.divinterna {
+    background-color: rgba(128, 128, 128, 0.652);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    margin: 5px;
+}
+
+/*USO DE FLEXBOX*/
+
+footer {
+    background-color: rgb(42, 42, 193);
+    padding: 20px 0px;
+}
+
+footer > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+footer a:hover {
+    background-color: rgb(84, 84, 233);
+    padding: 10px;
+    border-radius: 5px 0px 5px 0px;
+}
+

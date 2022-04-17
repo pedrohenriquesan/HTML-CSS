@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flexbox</h1>
+    </header>
+    <main>
+        <h2>Conceitos básicos</h2>
+        <p class="paragrafocomum">Flexible Box Module ou Flexbox é um modelo de layout unidimensional capaz de 
+            organizar elementos em uma interface com alta capacidade de alinhamento, todas as operações com flexbox 
+            relacionam-se com dois eixos, o principal e o transversal, o principal é definido pela propriedade 
+            flex-direction (mais informações na seção sobre as propriedades), enquanto o transversal se encontra 
+            perpendicular a ele, compreender a diferença entre os eixos é o que importa quando começamos a observar 
+            o alinhamento ou justificação dos itens flexíveis (flex-items), o flexbox possui propriedades que alinham 
+            e justificam o conteúdo ao longo de um eixo ou de outro.
+        </p>
+        <h2>Contêiner flex</h2>
+        <p class="paragrafocomum">A área de um documento que faz uso do flexbox é denominado contêiner flex, para criar 
+            essa estrutura definimos a propriedade display assumindo como valor flex ou inline-flex, desse modo, todos 
+            os elementos filhos vão assumir comportamento flex, com isso, algumas características serão aparentes, além 
+            das seguintes propriedades assumindo seus valores padrões:
+        </p>
+        <ul>
+            <li>flex-direction assume row;</li>
+            <li>Alinhamento na borda do eixo principal;</li>
+            <li>Sem expansão do eixo principal, mas talvez contração;</li>
+            <li>Expansão vertical para preencher a altura do eixo transversal;</li>
+            <li>flex-basis assume auto;</li>
+            <li>flex-wrap assume nowrap;</li>
+        </ul>
+        <p class="paragrafocomum">Por fim, o resultado final dessa configuração padrão, é que todos os elementos vão ser 
+            alinhados em uma única linha, usando o tamanho do conteúdo como tamanho do eixo principal, se houver mais itens 
+            do que é possível não há quebra de linha e eles irão ultrapassar a tela, todos os itens se estendem pelo eixo 
+            transversal até a altura do maior item.
+        </p>
+        <div class="divexterna">
+            <div class="divinterna">Primeira.</div>
+            <div class="divinterna">Segunda.</div>
+            <div class="divinterna">Terceira. <br> Terceira. <br> Terceira.</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+            <div class="divinterna">Continua....</div>
+        </div>
+        <h2>Propriedades</h2>
+        <h3>display</h3>
+        <h3>flex-direction</h3>
+        <p class="paragrafocomum">Indica a direção na qual os elementos serão exibidos e pode receber os seguintes valores: 
+            row (elementos dispostos em ordem na linha da esquerda para direita, é o padrão), row-reverse (elementos dispostos 
+            em ordem na linha da direita para esquerda), column (elementos dispostos em ordem na coluna de cima para baixo) e 
+            column-reverse (elementos dispostos em ordem na coluna de baixo para cima).
+        </p>
+        <h3>flex-wrap</h3>
+        <p class="paragrafocomum">Apesar de ser um modelo unidimensional o flexbox permite que elementos sejam agrupados em 
+            múltiplas linhas, com isso, cada linha é considerada um novo contêiner flex, para isso, usamos a propriedade 
+            flex-wrap par quebra automática de linha quando uma for ocupada totalmente, tal propriedade pode assumir dois 
+            valores: nowrap (não quebra a linha, é o padrão) e wrap (quebra a linha).
+        </p>
+        <h3>flex-flow</h3>
+        <p class="paragrafocomum">É uma shorthand para as duas propriedades anteriores, a declaração flex-flow deve assumir o 
+            valor de flex-direction seguido do valor de flex-wrap.
+        </p>
+        <h3>flex-basis</h3>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/pedrohenriquesan">Pedro Henrique Santos Araujo</a></p>
+    </footer>
+</body>
+</html>
+
