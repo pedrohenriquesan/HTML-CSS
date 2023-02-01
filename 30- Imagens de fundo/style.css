@@ -52,3 +52,29 @@ body {
     background-repeat: repeat-y;                        /*MODOS DE REPETIÇÃO DAS IMAGENS DE FUNDO*/
 }                           
 
+/*TERCEIRA PAGINA*/
+
+div.bloco {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    background-image: url("imagens/wallpaper002.jpg");
+}
+
+div#i1 {
+    background-position: left top;
+}
+
+div#i2 {
+    background-position: left center;
+}
+
+div#i3 {
+    background-position: right bottom;
+}
+
+div#i4 {
+    background-position: center center;
+}
+

@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to top, #FECC6B, #F76732, #EC4652, #DA2A78, #AD349B, #515ED0);    /*to top*/
+    background-image: linear-gradient(to top, #FECC6B, #F76732, #EC4652, #DA2A78, #AD349B, #515ED0,);    /*to top*/
     background-attachment: fixed;
     color: black;
 }
