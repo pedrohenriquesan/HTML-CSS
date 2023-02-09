@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*INDEX*/
+
 div {
     display: inline-block;
     border: 2px solid black;
@@ -25,11 +27,15 @@ body {
     background-image: url('imagens/pattern003.png');    /*IMAGENS DE FUNDO*/
 }
 
-/*-------------------*/
+/*PÁGINA 2*/
 
 #bodyDois {
     background-image: url('imagens/pattern001.png');
     background-size: 100px 100px;                       /*TAMANHO DAS IMAGENS DE FUNDO*/
+}
+
+h1, p{
+    color: white;
 }
 
 #repeat1 {
@@ -78,3 +84,5 @@ div#i4 {
     background-position: center center;
 }
 
+/*ESTILO PÁGINA 4 NO HTML*/
+/*ESTILO PÁGINA 5 NO HTML*/
