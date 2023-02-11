@@ -27,19 +27,24 @@
 <body>
     <main>
         <h1>Teste de imagens de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-            Cupiditate ipsa at voluptas est eos tempore. Numquam nihil 
-            voluptatem nulla iusto soluta nam atque repellat placeat, 
-            quis nostrum perspiciatis necessitatibus sunt. Lorem ipsum 
-            dolor, sit amet consectetur adipisicing elit. Delectus, error 
-            et fuga beatae laboriosam, fugit culpa eligendi perspiciatis 
-            optio illum libero velit voluptates rem tempore provident 
-            inventore ducimus. Totam, facere? Lorem ipsum dolor, sit amet 
-            consectetur adipisicing elit. Suscipit labore autem repellat, 
-            rerum enim mollitia modi soluta incidunt eaque quis sit atque 
-            ad possimus maiores. Voluptates ab doloremque deserunt 
-            temporibus.
+        <p>Uma dica poderosa é, geralmente, muitos podem pensar que se o 
+           seu site tem uma imagem de fundo não é necessária uma cor de 
+           fundo, mas é sim, pois o conteúdo é carregado primeiro que a 
+           imagem, por isso, é ideal cor de fundo inicialmente. Para a 
+           propriedade background-size é muito bom usar o valor de 100%. 
+           Mas, em na grande maioria das ves sobra-se uma parte em preto 
+           embaixo, é possível concertar configurando o height do body 
+           para 100vh, e 100% de largura e altura no seu 
+           background-positon, mas isso irá distorcer as imagens.
         </p>
+        <p>Para resolver essa solução ruim existe os valores "escritos” 
+           para o background-size: <br>
+           - Valores numéricos, porcentagens são mais indicadas. <br>
+           - Auto, opção automática, aplica a imagem o tamanho original. <br>
+           - Contain, dá o comando que a imagem seja 100% exibida, sem 
+           cortes, essa não resolve nosso problema. <br>
+           - Cover, cobre toda a tela sempre, mas corta as imagens.
+            </p>
     </main>
 </body>
 </html>
