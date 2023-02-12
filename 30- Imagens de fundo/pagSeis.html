@@ -8,15 +8,20 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
-            background-position: center top;
+            background-position: center center;
+            background-size: cover;
             background-repeat: no-repeat;
+            background-attachment: fixed;*/
+
+            background: black url("imagens/wallpaper002.jpg") center 
+            center no-repeat fixed;
             background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -39,12 +44,41 @@
         </p>
         <p>Para resolver essa solução ruim existe os valores "escritos” 
            para o background-size: <br>
-           - Valores numéricos, porcentagens são mais indicadas. <br>
-           - Auto, opção automática, aplica a imagem o tamanho original. <br>
-           - Contain, dá o comando que a imagem seja 100% exibida, sem 
+           &rarr;Valores numéricos, porcentagens são mais indicadas. <br>
+           &rarr;Auto, opção automática, aplica a imagem o tamanho original. 
+           <br>
+           &rarr;Contain, dá o comando que a imagem seja 100% exibida, sem 
            cortes, essa não resolve nosso problema. <br>
-           - Cover, cobre toda a tela sempre, mas corta as imagens.
-            </p>
+           &rarr;Cover, cobre toda a tela sempre, mas corta as imagens.
+        </p>
+        <p>Nesse capítulo vamos falar sobre vínculo do seu background, ou 
+           seja, se o seu fundo vai ficar vinculado com o conteúdo ou não.
+           Como citamos, se o seu conteúdo for maior que a imagem de fundo,
+           o mesmo irá ultrapassar sua imagem, para isso temos que fixar a 
+           imagem, isso se chama vínculo ou attachment e a sua propriedade 
+           é a seguinte: <br>
+           &rarr;background-attachment <br>
+           &nbsp;&nbsp;&nbsp;&rarr;scrool, o fundo é rolado junto com o 
+           conteúdo. <br>
+           &nbsp;&nbsp;&nbsp;&rarr;fixed, o fundo fixa e o conteúdo segue 
+           sendo rolado.
+           <br>
+        </p>
+        <p>Para deixar as duas declarações em CSS mais limpas podemos usar
+           a shorthand do background, a mesma, em teoria, deve seguir as 
+           seguintes declarações: color > image > position > size > repeat
+           > attachment:
+           &rarr;background: black url("imagens/wallpaper002.jpg") center 
+           center cover no-repeat fixed; <br> <br>
+           No entanto, alguns erros são notados, não funciona, apesar da 
+           documentação permitir que o size seja usado na shorthand, não 
+           funciona na prática, por isso, é necessário que se use o 
+           background-size de forma isolada, dessa forma reduzimos as 
+           declarações para: <br>
+           &rarr;background: black url("imagens/wallpaper002.jpg") center 
+           center no-repeat fixed; <br>
+           &rarr;background-size: cover;
+        </p>
     </main>
 </body>
 </html>
