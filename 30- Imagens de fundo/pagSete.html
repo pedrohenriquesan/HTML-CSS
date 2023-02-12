@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #conteiner {
+            position: relative; /*pode ser omitido (é padrõa)*/
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            height: 96vh;
+            padding: 10px;
+            background-color: gray;
+        }
+
+        #conteudo {
+            position: absolute;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            height: 200px;
+            width: 400px;
+            background-color: violet;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>Sempre que for centralizar verticalmente, é necessário a 
+           presença de um contêiner e um conteúdo. Como vimos antes, é 
+           relativamente simples centralizar o conteúdo de um contêiner 
+           horizontalmente com o comando margin: auto, mas quando falamos 
+           em alinhamento vertical isso não é possível. Para isso vamos 
+           usar os posicionamentos, por padrão, é necessário que o 
+           contêiner possui posicionamento relativo (padrão), enquanto o 
+           conteúdo deve ter posicionamento absoluto, quando essas 
+           propriedades são definidas, duas propriedades podem ser 
+           colocadas para o conteúdo absoluto: <br>
+           &rarr;left <br>
+           &rarr;top <br>
+           Assumindo o valor de 50%, dá a impressão que o problema seria 
+           solucionado, mas o ponto de alinhamento se dá no ponto superior
+           esquerdo, não ficando no centro.
+        </p>
+        <p>Para isso vamos usar uma nova propriedade, a propriedade 
+           transform e seu valor translate, essa propriedade é mexer em 
+           qualquer caixa, em vários meios disponível, a operação 
+           translate mexe no posicionamento valores positivos vão para 
+           direita e para baixo, negativos vão para esquerda e para cima. 
+           Com isso, basta usarmos essa propriedade com valores negativos 
+           de 50% negativos.
+        </p>
+    </section>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
+
