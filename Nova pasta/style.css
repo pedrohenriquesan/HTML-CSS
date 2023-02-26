@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+/*AMBAS*/
+
 body {
     font-family: 'Courier New', Courier, monospace;
 }
@@ -12,16 +14,39 @@ main {
     padding: 30px;
 }
 
-table {
+/*PRIMEIRA TELA*/
+
+table#menor {
     width: 400px;
     height: 400px;
     border-collapse: collapse;
 }
 
-td {
+td{
     border: 1px solid  black;
     padding: 8px;
     text-align: center; /*ALINHAMENTO HORIZONTAL*/
     vertical-align: middle; /*top middle bottom*/
+}
+
+/*SEGUNDA TELA*/
+
+table#maior {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid  black;
+    padding: 8px;
+}
+
+thead, tfoot {
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+td.num {
+    text-align: right;
 }
 
