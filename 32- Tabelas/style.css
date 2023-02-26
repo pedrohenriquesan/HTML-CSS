@@ -4,6 +4,14 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+main {
+    width: 800px;
+    margin: auto;
+    background-color: rgba(145, 228, 200, 0.637);
+    border-radius: 20px 0px 20px 0px;
+    padding: 30px;
+}
+
 table {
     width: 400px;
     border-collapse: collapse;
