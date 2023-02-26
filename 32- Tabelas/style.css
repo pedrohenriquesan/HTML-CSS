@@ -14,11 +14,14 @@ main {
 
 table {
     width: 400px;
+    height: 400px;
     border-collapse: collapse;
 }
 
 td {
     border: 1px solid  black;
     padding: 8px;
+    text-align: center; /*ALINHAMENTO HORIZONTAL*/
+    vertical-align: middle; /*top middle bottom*/
 }
 
