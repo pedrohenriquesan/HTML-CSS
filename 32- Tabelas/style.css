@@ -57,3 +57,11 @@ caption {
     background-color: rgb(105, 201, 196);
 }
 
+tbody >tr:nth-child(odd) { /*odd = ímpar pode-se usar 2n-1*/
+    background-color: aquamarine;
+}
+
+tbody >tr:nth-child(even) { /*even = par pode-se usar 2n*/
+    background-color: rgb(112, 194, 167);
+}
+
