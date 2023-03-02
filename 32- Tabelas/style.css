@@ -42,11 +42,18 @@ th{
 }
 
 thead, tfoot {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(53, 168, 163);
     color: white;
 }
 
 td.num {
     text-align: right;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(105, 201, 196);
 }
 
