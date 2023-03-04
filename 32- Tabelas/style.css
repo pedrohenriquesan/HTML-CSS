@@ -72,3 +72,16 @@ thead > tr > th {               /*PARA FIXAR O CABEÇALHO*/
     background-color: rgb(105, 201, 196);
 }
 
+/*MESCLAGEM*/
+
+table#mesclagem {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
