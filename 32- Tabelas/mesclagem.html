@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mesclagem de células</h1>
-    <table id="mesclagem">
-        <tr>
-            <td>A</td>
-            <td colspan="2">B</td>      <!--expansão em coluna-->
-        </tr>
-        <tr>
-            <td rowspan="3">D</td>      <!--expansão em linha-->
-            <td>E</td>
-            <td rowspan="2">F</td>
-        </tr>
-        <tr>
-            <td>H</td>
-        </tr>
-        <tr>
-            <td colspan="2">L</td>
-        </tr>
-    </table>
+    <main>
+        <h1>Mesclagem de células</h1>
+        <p>
+            &nbsp;Esse tema explica como expandimos determinada célula da  sua
+            tabela quando é necessário, é muito confundido pois, existem dois
+            modos, a expansão em coluna e a expansão em linha, não confunda,
+            na expansão em coluna, a célula ocupa mais de uma coluna,
+            enquanto, em linha, a célula ocupa mais de uma linha. Para
+            determinarmos essa mesclagem ou expansão usamos o HTML
+            diretamente, com os parâmetros colspan e rowspan, para expansões
+            em coluna e linha, respectivamente, em ambos os casos os valores
+            a serem recebidos é o número de linhas ou colunas que será
+            expandido. <br> <br>
+            &nbsp;No caso abaixo, a célula B e L está com expansão em coluna de 
+            2, enquanto as células D e F está com expansão de 3 e 2, 
+            respectivamente.
+        </p>
+        <table id="mesclagem">
+            <tr>
+                <td>A</td>
+                <td colspan="2">B</td>      <!--expansão em coluna-->
+            </tr>
+            <tr>
+                <td rowspan="3">D</td>      <!--expansão em linha-->
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+            <tr>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td colspan="2">L</td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>
 
