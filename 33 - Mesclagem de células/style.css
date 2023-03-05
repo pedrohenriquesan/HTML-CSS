@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+
+main {
+    font-family: Tahoma, sans-serif;
+    margin: auto;
+    background-color: rgba(0, 255, 255, 0.288);
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 75px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(38, 116, 126);
+    color: white;
+}
+
