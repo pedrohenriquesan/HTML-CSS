@@ -11,12 +11,19 @@ table {
     border-collapse: collapse;
 }
 
-td {
-    width: 75px;
+td, th {
+    width: 120px;
     border: 1px solid white;
     padding: 10px;
     text-align: center;
     background-color: rgb(38, 116, 126);
     color: white;
+}
+
+caption {
+    background-color: rgba(95, 95, 197, 0.61);
+    padding: 10px;
+    color: white;
+    font-weight: bold;
 }
 
