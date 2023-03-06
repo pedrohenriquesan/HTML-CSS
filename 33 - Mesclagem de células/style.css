@@ -11,12 +11,21 @@ table {
     border-collapse: collapse;
 }
 
-td, th {
+td {
     width: 120px;
     border: 1px solid white;
     padding: 10px;
     text-align: center;
     background-color: rgb(38, 116, 126);
+    color: rgb(0, 0, 0);
+}
+
+th {
+    width: 120px;
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(33, 95, 104);
     color: white;
 }
 
