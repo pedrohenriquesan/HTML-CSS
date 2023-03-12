@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>AGRUPANDO COLUNAS COM COLGROUP</h1>
+        <p>
+            De forma interna a colgroup inserimos o número de coluna que 
+            queremos selecionar, para posteriormente determinar suas 
+            folhas de estilo, essas colunas são identificadas pela tag 
+            col juntamente com uma classe, tem que ser classe, além disso,
+            também temos o atributo span como atalho, no exemplo, 
+            colocamos o nome em mais destaque, enquanto os outros dados 
+            assumiram menor destaque devido a expansão indicada.
+        </p>
+        <table>
+            <colgroup>
+                <col class="nome">
+                <col class="dados" span="3">
+            </colgroup>
+            <caption>CADASTRO</caption>
+            <tr>
+                <td scope="col">Nome</td>
+                <td scope="col">Sexo</td>
+                <td scope="col">Idade</td>
+                <td scope="col">Profissão</td>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>21</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
+
