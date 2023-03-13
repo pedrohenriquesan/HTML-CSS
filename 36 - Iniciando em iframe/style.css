@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+main {
+    font-family: Verdana, Tahoma, sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(193, 138, 245);
+    border-radius: 20px 0px;
+}
+
+h1 {
+    color: rgb(44, 44, 44);
+}
+
+iframe {
+    width: 300px;
+    height: 400px;
+    border: 5px solid rgb(171, 106, 231);
+}
+
