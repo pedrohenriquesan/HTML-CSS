@@ -19,29 +19,30 @@
 </head>
 <body>
     <h1>Faça uma escolha</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus 
-       voluptatem esse obcaecati illo, ipsum repellendus quia aspernatur 
-       eligendi, soluta nulla debitis adipisci expedita. Doloremque odit 
-       minus consectetur ex iure placeat.</p>
+    <p>A ideia deste tópico é, como navegar por diferentes páginas 
+       em um mesmo iframe declarado, antes de explicarmos o modo de 
+       fazer, é importante dizer que é interessante separar as 
+       páginas do iframe uma outra pasta no seu projeto..</p>
     <ul>
         <li><a href="páginas iframe/pag001.html" target="frame">Primeira Página</a></li>
         <li><a href="páginas iframe/pag002.html" target="frame">Segunda Página</a></li>
         <li><a href="páginas iframe/pag003.html" target="frame">Terceira Página</a></li>
     </ul>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus 
-       voluptatem esse obcaecati illo, ipsum repellendus quia aspernatur 
-       eligendi, soluta nulla debitis adipisci expedita. Doloremque odit 
-       minus consectetur ex iure placeat. Lorem ipsum dolor sit amet 
-       consectetur adipisicing elit. Voluptatum voluptate vel saepe 
-       placeat est corrupti reprehenderit sequi vitae, possimus optio 
-       sunt sed nam repellendus cumque ex eos id delectus molestiae!</p>
-    <iframe src="" name="frame">
+    <p>
+        Para fazermos essa ação possível utilizamos os links, no 
+        iframe é obrigatório a declaração de um “name” para o 
+        iframe, somente com ele funcionará, enquanto isso, no 
+        atributos target das nossas âncoras colocamos como valor o 
+        “name” dado ao iframe, com isso, todas as páginas irão 
+        abrir em um mesmo iframe sem sair da página principal. 
+    </p>
+    <iframe srcdoc="<h1>Clique em um dos links acima</h1> <p> 
+        A segunda situação é um parâmetro novo chamado 'srcdoc', 
+        nele é possível adicionar conteúdo em HTML </p></iframe> 
+        <img src='logo-html.png' alt='LOGO html'></iframe>" 
+        name="frame">
         <p>Infelizmente seu navegador não é compatível</p>
     </iframe>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus 
-        voluptatem esse obcaecati illo, ipsum repellendus quia aspernatur 
-        eligendi, soluta nulla debitis adipisci expedita. Doloremque odit 
-        minus consectetur ex iure placeat.</p>
 </body>
 </html>
 
