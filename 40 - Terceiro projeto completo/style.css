@@ -1,31 +1,30 @@
 @charset 'UTF-8';
 
-* {
+* {     /*RESET PARA COMEÇAR QUALQUER PROJETO*/
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html, body {     /*RESET PARA COMEÇAR QUALQUER PROJETO*/
     height: 100vh;
     width: 100vw;
-    background-color: black;
 }
 
 body {
     background: url('imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;             /*COBRE A TELA, MAS CORTA A IMAGEM*/
-    background-attachment: fixed;       /*FUNDO FICA DIXO*/
+    background-attachment: fixed;       /*FUNDO FICA FIXO*/
 }
 
-main {      /*CONTÊINER EXTERNO AO CONTEÚDO CENTRALIZADO*/
-    position: relative;     /*DECLARAÇÃO NECESSÁRIA*/
+main {      /*CONTÊINER EXTERNO AO CONTEÚDO A SER CENTRALIZADO*/
+    position: relative;
     height: 100vh;
 }
 
 section#telefone {      /*CONTÊINER A SER CENTRALIZADO*/
     position: absolute;     /**DECLARAÇÃO NECESSÁRIA*/
-    top: 50%;                           /*DEIXA O TOPO ESQUERDO NO MEIO*/
+    top: 50%;                           /*DEIXA O CANTO SUPERIOR ESQUERDO NO MEIO DO MAIN*/
     left: 50%;
     transform: translate(-50%, -50%);   /*CORRIGE PARA CENTRO COM CENTRO*/
     height: 627px;
@@ -35,7 +34,7 @@ section#telefone {      /*CONTÊINER A SER CENTRALIZADO*/
 
 iframe#tela {
     position: relative;
-    top: 80px;
+    top: 80px;      /*CORREÇÃO DE POSICIONAMENTO*/
     left: 22px;
     width: 263px;
     height: 467px;
