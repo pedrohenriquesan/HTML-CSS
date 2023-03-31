@@ -17,7 +17,7 @@ img {
 }
 
 a {
-    display: block;
+    display: block;     /*posiciona o link abaixo da imagem*/
     background-color: darkred;
     color: white;
     padding: 20px;
