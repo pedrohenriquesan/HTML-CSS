@@ -32,7 +32,7 @@ h1 {
     text-align: center;
 }
 
-p {
+p, a {
     font-family: Verdana, Tahoma, sans-serif;
     padding: 5px;
 }
