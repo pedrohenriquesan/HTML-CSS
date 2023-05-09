@@ -37,3 +37,8 @@ p, a {
     padding: 5px;
 }
 
+fieldset {
+    padding: 5px;
+    margin: 5px;
+}
+
