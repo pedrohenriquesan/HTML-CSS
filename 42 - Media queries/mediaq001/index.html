@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media queries</title>
+    <link rel="stylesheet" href="styleGeral.css" media="all"> <!--qualquer tipo-->
     <link rel="stylesheet" href="stylePrincipal.css" media="screen"> <!--qualquer tela-->
+    <link rel="stylesheet" href="styleVertical.css" media="screen and (orientarion: portrait)"> <!--telas verticais-->
+    <link rel="stylesheet" href="styleHorizontal.css" media="screen and (orientation: landscape)"> <!--telas horizontais-->
     <link rel="stylesheet" href="styleImpressora.css" media="print"> <!--impressora-->
 </head>
 <body>
@@ -30,6 +33,14 @@
                geralmente um site completo tem várias media queries, uma para
                cada dispositivo, como televisões robustas, computadores, tablets,
                celulares e até impressoras.
+            </p>
+            <h2>Media types</h2>
+            <p>O que vamos ver a seguir são chamadas de media types, ou seja, diferentes 
+               formas de portar o seu site para diferentes formatos de mídia, no exemplo 
+               dado abaixo, temos um site simples para um computador comum e para impressora 
+               (como um site de notícias), para isso, usamos dois medi types, screen para 
+               telas e print para impressão. Existem outros tipos de media types, inclusive 
+               para impressão em bryle, mas vamos usar somente screen, print e all.
             </p>
         </article>
     </main>

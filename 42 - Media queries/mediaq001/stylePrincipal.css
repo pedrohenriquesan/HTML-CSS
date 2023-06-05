@@ -1,5 +1,7 @@
 @charset 'UTF-8';
 
+/*configurações principal*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -38,5 +40,11 @@ main {
     max-width: 1000px;
     margin: auto;
     background-color: rgb(233, 233, 233);
+    padding: 10px;
+}
+
+p {
+    padding: 5px;
+    text-indent: 2em;
 }
 
