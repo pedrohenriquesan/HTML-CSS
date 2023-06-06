@@ -1,3 +1,8 @@
 @charset 'UTF-8';
 
-/*configurações para dispositivos em modo paisagem (horizontl)*/
+/*configurações para dispositivos em modo paisagem (horizontal)*/
+
+div {
+    background-color: cornflowerblue;
+}
+

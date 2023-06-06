@@ -1,3 +1,8 @@
 @charset 'UTF-8';
 
 /*configurações para dispositivos em modo retrato (vertical)*/
+
+div {
+    background-color: darkcyan;
+}
+
